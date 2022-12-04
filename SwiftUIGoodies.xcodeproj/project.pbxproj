@@ -7,10 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E21C266328C479780035FAF0 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C266228C479780035FAF0 /* Carousel.swift */; };
+		E21C266528C479F10035FAF0 /* LoadingHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21C266428C479F10035FAF0 /* LoadingHUD.swift */; };
+		E263F4CF28AF6AA800B82A1D /* StripedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E263F4CE28AF6AA800B82A1D /* StripedList.swift */; };
+		E263F4D428AF6EBF00B82A1D /* View+PartialSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E263F4D328AF6EBF00B82A1D /* View+PartialSheet.swift */; };
+		E263F4D628AF6F0400B82A1D /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E263F4D528AF6F0400B82A1D /* BlurView.swift */; };
 		E2B55A6A289D9CD50096F796 /* SwiftUIGoodies.docc in Sources */ = {isa = PBXBuildFile; fileRef = E2B55A69289D9CD50096F796 /* SwiftUIGoodies.docc */; };
 		E2B55A70289D9CD50096F796 /* SwiftUIGoodies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B55A65289D9CD50096F796 /* SwiftUIGoodies.framework */; };
 		E2B55A75289D9CD50096F796 /* SwiftUIGoodiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B55A74289D9CD50096F796 /* SwiftUIGoodiesTests.swift */; };
 		E2B55A76289D9CD50096F796 /* SwiftUIGoodies.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B55A68289D9CD50096F796 /* SwiftUIGoodies.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2B55A80289D9CF40096F796 /* View+Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B55A7F289D9CF40096F796 /* View+Cardify.swift */; };
+		E2B55A82289D9D5A0096F796 /* View+AsymmetricPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B55A81289D9D5A0096F796 /* View+AsymmetricPadding.swift */; };
+		E2B55A89289D9F8A0096F796 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B55A87289D9EE50096F796 /* SwiftUI.framework */; };
+		E2B55A8A289D9F8A0096F796 /* SwiftUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E2B55A87289D9EE50096F796 /* SwiftUI.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E2BB76A728AE89A000F9FB75 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BB76A628AE89A000F9FB75 /* SectionHeaderView.swift */; };
+		E2BB76A928AE89C000F9FB75 /* MultiLayerIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BB76A828AE89C000F9FB75 /* MultiLayerIcon.swift */; };
+		E2BF4640289FB68D00CA99D9 /* View+Spaced.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF463F289FB68D00CA99D9 /* View+Spaced.swift */; };
+		E2BF465D28A286F100CA99D9 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF465C28A286F100CA99D9 /* Color.swift */; };
+		E2BF466628A3F92800CA99D9 /* ResizableScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF466028A3F92600CA99D9 /* ResizableScannerView.swift */; };
+		E2BF466728A3F92800CA99D9 /* ScanResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF466328A3F92800CA99D9 /* ScanResult.swift */; };
+		E2BF466828A3F92800CA99D9 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF466428A3F92800CA99D9 /* ScannerViewController.swift */; };
+		E2BF466928A3F92800CA99D9 /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF465F28A3F92600CA99D9 /* HapticFeedback.swift */; };
+		E2BF466A28A3F92800CA99D9 /* ScanError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF466228A3F92700CA99D9 /* ScanError.swift */; };
+		E2BF466B28A3F92800CA99D9 /* ScannerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF466128A3F92700CA99D9 /* ScannerCoordinator.swift */; };
+		E2BF466C28A3F92800CA99D9 /* CodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF466528A3F92800CA99D9 /* CodeScannerView.swift */; };
+		E2BF466F28A4017200CA99D9 /* QRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF466E28A4017200CA99D9 /* QRCodeGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +44,46 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E2B55A8B289D9F8A0096F796 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E2B55A8A289D9F8A0096F796 /* SwiftUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		E21C266228C479780035FAF0 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		E21C266428C479F10035FAF0 /* LoadingHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingHUD.swift; sourceTree = "<group>"; };
+		E263F4CE28AF6AA800B82A1D /* StripedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripedList.swift; sourceTree = "<group>"; };
+		E263F4D328AF6EBF00B82A1D /* View+PartialSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+PartialSheet.swift"; sourceTree = "<group>"; };
+		E263F4D528AF6F0400B82A1D /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		E2B55A65289D9CD50096F796 /* SwiftUIGoodies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftUIGoodies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B55A68289D9CD50096F796 /* SwiftUIGoodies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftUIGoodies.h; sourceTree = "<group>"; };
 		E2B55A69289D9CD50096F796 /* SwiftUIGoodies.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftUIGoodies.docc; sourceTree = "<group>"; };
 		E2B55A6F289D9CD50096F796 /* SwiftUIGoodiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIGoodiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B55A74289D9CD50096F796 /* SwiftUIGoodiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGoodiesTests.swift; sourceTree = "<group>"; };
+		E2B55A7F289D9CF40096F796 /* View+Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Cardify.swift"; sourceTree = "<group>"; };
+		E2B55A81289D9D5A0096F796 /* View+AsymmetricPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+AsymmetricPadding.swift"; sourceTree = "<group>"; };
+		E2B55A87289D9EE50096F796 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.0.sdk/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
+		E2BB76A628AE89A000F9FB75 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		E2BB76A828AE89C000F9FB75 /* MultiLayerIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiLayerIcon.swift; sourceTree = "<group>"; };
+		E2BF463F289FB68D00CA99D9 /* View+Spaced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Spaced.swift"; sourceTree = "<group>"; };
+		E2BF465C28A286F100CA99D9 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		E2BF465F28A3F92600CA99D9 /* HapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
+		E2BF466028A3F92600CA99D9 /* ResizableScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableScannerView.swift; sourceTree = "<group>"; };
+		E2BF466128A3F92700CA99D9 /* ScannerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerCoordinator.swift; sourceTree = "<group>"; };
+		E2BF466228A3F92700CA99D9 /* ScanError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanError.swift; sourceTree = "<group>"; };
+		E2BF466328A3F92800CA99D9 /* ScanResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanResult.swift; sourceTree = "<group>"; };
+		E2BF466428A3F92800CA99D9 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		E2BF466528A3F92800CA99D9 /* CodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeScannerView.swift; sourceTree = "<group>"; };
+		E2BF466E28A4017200CA99D9 /* QRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B55A89289D9F8A0096F796 /* SwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +112,7 @@
 				E2B55A67289D9CD50096F796 /* SwiftUIGoodies */,
 				E2B55A73289D9CD50096F796 /* SwiftUIGoodiesTests */,
 				E2B55A66289D9CD50096F796 /* Products */,
+				E2B55A86289D9EE50096F796 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +129,18 @@
 			isa = PBXGroup;
 			children = (
 				E2B55A68289D9CD50096F796 /* SwiftUIGoodies.h */,
+				E2B55A7F289D9CF40096F796 /* View+Cardify.swift */,
+				E2BF465C28A286F100CA99D9 /* Color.swift */,
+				E263F4D328AF6EBF00B82A1D /* View+PartialSheet.swift */,
+				E263F4D528AF6F0400B82A1D /* BlurView.swift */,
+				E2BF463F289FB68D00CA99D9 /* View+Spaced.swift */,
+				E263F4CE28AF6AA800B82A1D /* StripedList.swift */,
+				E21C266228C479780035FAF0 /* Carousel.swift */,
+				E21C266428C479F10035FAF0 /* LoadingHUD.swift */,
+				E2BF465E28A3F92600CA99D9 /* Scanning */,
+				E2B55A81289D9D5A0096F796 /* View+AsymmetricPadding.swift */,
+				E2BB76A628AE89A000F9FB75 /* SectionHeaderView.swift */,
+				E2BB76A828AE89C000F9FB75 /* MultiLayerIcon.swift */,
 				E2B55A69289D9CD50096F796 /* SwiftUIGoodies.docc */,
 			);
 			path = SwiftUIGoodies;
@@ -83,6 +152,29 @@
 				E2B55A74289D9CD50096F796 /* SwiftUIGoodiesTests.swift */,
 			);
 			path = SwiftUIGoodiesTests;
+			sourceTree = "<group>";
+		};
+		E2B55A86289D9EE50096F796 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2B55A87289D9EE50096F796 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2BF465E28A3F92600CA99D9 /* Scanning */ = {
+			isa = PBXGroup;
+			children = (
+				E2BF466528A3F92800CA99D9 /* CodeScannerView.swift */,
+				E2BF466028A3F92600CA99D9 /* ResizableScannerView.swift */,
+				E2BF466E28A4017200CA99D9 /* QRCodeGenerator.swift */,
+				E2BF466428A3F92800CA99D9 /* ScannerViewController.swift */,
+				E2BF466128A3F92700CA99D9 /* ScannerCoordinator.swift */,
+				E2BF466228A3F92700CA99D9 /* ScanError.swift */,
+				E2BF466328A3F92800CA99D9 /* ScanResult.swift */,
+				E2BF465F28A3F92600CA99D9 /* HapticFeedback.swift */,
+			);
+			path = Scanning;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +199,7 @@
 				E2B55A61289D9CD50096F796 /* Sources */,
 				E2B55A62289D9CD50096F796 /* Frameworks */,
 				E2B55A63289D9CD50096F796 /* Resources */,
+				E2B55A8B289D9F8A0096F796 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +288,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2B55A6A289D9CD50096F796 /* SwiftUIGoodies.docc in Sources */,
+				E2B55A82289D9D5A0096F796 /* View+AsymmetricPadding.swift in Sources */,
+				E2BF4640289FB68D00CA99D9 /* View+Spaced.swift in Sources */,
+				E263F4CF28AF6AA800B82A1D /* StripedList.swift in Sources */,
+				E263F4D428AF6EBF00B82A1D /* View+PartialSheet.swift in Sources */,
+				E263F4D628AF6F0400B82A1D /* BlurView.swift in Sources */,
+				E2BF466728A3F92800CA99D9 /* ScanResult.swift in Sources */,
+				E2BB76A928AE89C000F9FB75 /* MultiLayerIcon.swift in Sources */,
+				E2BF466C28A3F92800CA99D9 /* CodeScannerView.swift in Sources */,
+				E2BF466B28A3F92800CA99D9 /* ScannerCoordinator.swift in Sources */,
+				E2BF466628A3F92800CA99D9 /* ResizableScannerView.swift in Sources */,
+				E2BF466928A3F92800CA99D9 /* HapticFeedback.swift in Sources */,
+				E2BF465D28A286F100CA99D9 /* Color.swift in Sources */,
+				E2B55A80289D9CF40096F796 /* View+Cardify.swift in Sources */,
+				E21C266528C479F10035FAF0 /* LoadingHUD.swift in Sources */,
+				E2BF466828A3F92800CA99D9 /* ScannerViewController.swift in Sources */,
+				E2BB76A728AE89A000F9FB75 /* SectionHeaderView.swift in Sources */,
+				E2BF466F28A4017200CA99D9 /* QRCodeGenerator.swift in Sources */,
+				E21C266328C479780035FAF0 /* Carousel.swift in Sources */,
+				E2BF466A28A3F92800CA99D9 /* ScanError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +380,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -323,6 +437,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -345,7 +461,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -354,7 +470,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mgua.SwiftUIGoodies;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -380,7 +496,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -389,7 +505,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mgua.SwiftUIGoodies;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -405,12 +521,13 @@
 		E2B55A7D289D9CD50096F796 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TW4MPRU9AN;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mgua.SwiftUIGoodiesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,12 +542,13 @@
 		E2B55A7E289D9CD50096F796 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TW4MPRU9AN;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mgua.SwiftUIGoodiesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

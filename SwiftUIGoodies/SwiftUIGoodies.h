@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <SwiftUI/SwiftUI.h>
 
 //! Project version number for SwiftUIGoodies.
 FOUNDATION_EXPORT double SwiftUIGoodiesVersionNumber;
