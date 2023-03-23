@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-public struct SectionHeaderView: View {
-    public init(title: String) {
+internal struct SectionHeaderView: View {
+    init(title: String) {
         self.title = title
     }
     
-    let title: String
-    public var body: some View {
+    private let title: String
+    var body: some View {
         HStack {
             Text(title)
                 .font(.title2.bold())
