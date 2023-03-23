@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public struct LoadingHUD: View {
+internal struct LoadingHUD: View {
     private let label: String = "Loading"
     
     public var body: some View {
@@ -17,8 +17,9 @@ public struct LoadingHUD: View {
             Text(label)
                 .font(.headline)
         }
-        .frame(width: 144, height: 144)
-        .cardify(backgroundColor: .primary.opacity(0.4))
+        .padding()
+        .frame(width: 120, height: 120)
+        .cardify(backgroundColor: .primary.opacity(0.2))
         .padding()
     }
 }
