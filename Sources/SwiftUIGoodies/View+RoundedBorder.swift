@@ -8,7 +8,7 @@
 import SwiftUI
 
 extension View {
-    func roundedBorder(icon: String? = nil) -> some View {
+    func roundedBorder(icon: String? = nil, cornerRadius: Double) -> some View {
         HStack {
             if let icon {
                 Image(systemName: icon)
@@ -18,7 +18,7 @@ extension View {
         }
         .padding(8)
         .background {
-            RoundedRectangle(cornerRadius: 32)
+            RoundedRectangle(cornerRadius: cornerRadius)
                 .stroke(lineWidth: 1)
                 .foregroundColor(.secondary)
         }
