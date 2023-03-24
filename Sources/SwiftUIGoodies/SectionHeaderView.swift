@@ -8,11 +8,13 @@
 import SwiftUI
 
 internal struct SectionHeaderView: View {
-    init(title: String) {
+    init(title: String, background color: Color? = nil) {
         self.title = title
+        self.backgroundColor = color
     }
     
     private let title: String
+    private let backgroundColor: Color?
     var body: some View {
         HStack {
             Text(title)
@@ -22,10 +24,12 @@ internal struct SectionHeaderView: View {
         }
         .padding(.horizontal)
         .padding(.vertical, 8)
-        .background(
-            Color.primary.opacity(0.2)
-                .background(Color.primary.colorInvert())
-        )
+        .background {
+            if let backgroundColor {
+                backgroundColor.opacity(0.2)
+                    .background(Color.primary.colorInvert())
+            }
+        }
     }
 }
 
