@@ -7,13 +7,12 @@
 
 import SwiftUI
 
+public enum ShapeType {
+    case stroke(lineWidth: CGFloat),
+         fill(opacity: CGFloat)
+}
+
 extension View {
-
-    public enum ShapeType {
-        case stroke(lineWidth: CGFloat),
-             fill(opacity: CGFloat)
-    }
-
     public func roundedBorder(systemImage: String? = nil, cornerRadius: Double, color: Color, style: ShapeType) -> some View {
         HStack {
             if let systemImage {
