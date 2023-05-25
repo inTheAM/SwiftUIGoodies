@@ -53,7 +53,7 @@ public struct LabeledNavigationView<Destination: View>: View {
                     .font(label.font)
             }
             .padding(.asymmetrical)
-            .cardify()
+            .cardified()
         }
     }
 }

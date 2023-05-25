@@ -13,7 +13,7 @@ public enum ShapeType {
 }
 
 extension View {
-    public func roundedBorder(systemImage: String? = nil, cornerRadius: Double, color: Color, style: ShapeType) -> some View {
+    public func rounded(systemImage: String? = nil, cornerRadius: Double, color: Color, style: ShapeType) -> some View {
         HStack {
             if let systemImage {
                 Image(systemName: systemImage)

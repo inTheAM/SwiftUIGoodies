@@ -8,7 +8,7 @@
 import SwiftUI
 
 public extension View {
-    func cardify()    ->    some View {
+    func cardified()    ->    some View {
         return self
             .background(Color(UIColor.systemBackground).overlay(Color.white.opacity(0.2)))
             .clipShape(RoundedRectangle(cornerRadius: 16))
