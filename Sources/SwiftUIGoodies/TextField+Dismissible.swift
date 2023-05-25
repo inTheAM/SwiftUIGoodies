@@ -8,7 +8,7 @@
 import SwiftUI
 
 public extension TextField {
-    func dismissible(focusState: FocusState<Bool>.Binding) -> some View {
+    func dismissible(_ focusState: FocusState<Bool>.Binding) -> some View {
         self
             .focused(focusState)
             .toolbar {
