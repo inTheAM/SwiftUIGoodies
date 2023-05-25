@@ -8,7 +8,7 @@
 import SwiftUI
 
 extension View {
-    func roundedBorder(icon: String? = nil, cornerRadius: Double) -> some View {
+    public func roundedBorder(icon: String? = nil, cornerRadius: Double) -> some View {
         HStack {
             if let icon {
                 Image(systemName: icon)
