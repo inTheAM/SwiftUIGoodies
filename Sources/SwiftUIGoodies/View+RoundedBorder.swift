@@ -1,5 +1,5 @@
 //
-//  TextField+RoundedBorder.swift
+//  View+RoundedBorder.swift
 //  
 //
 //  Created by Ahmed Mgua on 24/03/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension TextField {
+extension View {
 
     public enum ShapeType {
         case stroke(lineWidth: CGFloat),
