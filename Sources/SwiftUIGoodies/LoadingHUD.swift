@@ -19,7 +19,7 @@ internal struct LoadingHUD: View {
         }
         .padding()
         .frame(width: 120, height: 120)
-        .cardified(backgroundColor: .primary.opacity(0.2))
+        .cardified(backgroundColor: .primary.opacity(0.2), cornerRadius: 16)
         .padding()
     }
 }
