@@ -15,11 +15,11 @@ public extension View {
             .shadow(color: .black.opacity(0.1), radius: 3)
     }
     
-    func cardify(backgroundColor: Color = .systemBackground) -> some View {
+    func cardified(backgroundColor: Color = .systemBackground, cornerRadius: CGFloat) -> some View {
         self
             .background(
                 backgroundColor
-                    .cornerRadius(16)
+                    .cornerRadius(cornerRadius)
             )
     }
 }
