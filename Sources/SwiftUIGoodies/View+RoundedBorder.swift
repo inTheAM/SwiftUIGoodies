@@ -21,7 +21,6 @@ extension View {
             }
             self
         }
-        .padding(.asymmetrical)
         .background {
             switch style {
             case .stroke(let lineWidth):
