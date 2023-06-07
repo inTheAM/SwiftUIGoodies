@@ -18,9 +18,10 @@ extension View {
             if let systemImage {
                 Image(systemName: systemImage)
                     .foregroundColor(.secondary)
-                    .padding(.horizontal)
+                    .padding(.leading)
             }
             self
+                .cornerRadius(cornerRadius)
         }
         .background {
             switch style {
