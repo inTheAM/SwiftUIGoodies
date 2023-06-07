@@ -18,6 +18,7 @@ extension View {
             if let systemImage {
                 Image(systemName: systemImage)
                     .foregroundColor(.secondary)
+                    .padding(.horizontal)
             }
             self
         }
